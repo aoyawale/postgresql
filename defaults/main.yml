@@ -39,6 +39,7 @@ postgresql_postgis_release_compatibility:
   11: "2.5"
 
 postgresql_ext_postgis_version: "{{ postgresql_postgis_release_compatibility.get(postgresql_version) }}"
+postgresql_ext_postgis_version_terse: "{{ postgresql_ext_postgis_version | replace('.','') }}"
 
 postgresql_ext_postgis_deps:
   - libgeos-c1
