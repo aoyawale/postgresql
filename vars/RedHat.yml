@@ -14,9 +14,9 @@ postgresql_unix_socket_directories:
   - /tmp
 
 postgresql_ext_postgis_deps:
-  - "postgis{{ postgresql_ext_postgis_terse }}_{{ postgresql_version_terse }}"
-  - "postgis{{ postgresql_ext_postgis_terse }}_{{ postgresql_version_terse }}-client"
-  - "postgis{{ postgresql_ext_postgis_terse }}_{{ postgresql_version_terse }}-utils"
+  - "postgis{{ postgresql_ext_postgis_version_terse }}_{{ postgresql_version_terse }}"
+  - "postgis{{ postgresql_ext_postgis_version_terse }}_{{ postgresql_version_terse }}-client"
+  - "postgis{{ postgresql_ext_postgis_version_terse }}_{{ postgresql_version_terse }}-utils"
 
 postgresql_postgis_release_compatibility:
   9.3: "2"
