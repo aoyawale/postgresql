@@ -130,7 +130,7 @@ Creator:
 - [Pjan Vandaele](https://github.com/pjan)
 
 Maintainers:
-- [Jonathan Lozada D.](https://github.com/jlozadad)
+- [Adebisi Oyawale](https://github.com/aoyawale)
 - [Jonathan Freedman](https://github.com/otakup0pe)
 - [Sergei Antipov](https://github.com/UnderGreen)
 
